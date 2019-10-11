@@ -1,12 +1,8 @@
 plugins {
     id "cpp"
     id "google-test-test-suite"
-    id "edu.wpi.first.GradleRIO" version "2020.0.0-alpha-3"
+    id "edu.wpi.first.GradleRIO" version "2020.0.0-alpha-4"
 }
-
-wpi.wpilibVersion = '2019.4.1-202-g846d8de'
-
-wpi.maven.useFrcMavenLocalDevelopment = true
 
 // Define my targets (RoboRIO) and artifacts (deployable files)
 // This is added by GradleRIO's backing project EmbeddedTools.
